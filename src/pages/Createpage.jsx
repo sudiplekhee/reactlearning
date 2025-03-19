@@ -1,6 +1,13 @@
+import Form from "../components/form"
+import Navbar from "../components/Navbar"
+
 function Createpage(){
     return(
-<h1>This is create page</h1>
+<>
+<Navbar/>
+<Form text="createpage"/>
+
+</>
     )
 }
 export default Createpage

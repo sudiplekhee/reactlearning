@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom"
+
 function Card(){
     return(
 <>
+<Link to="/singlepage">
 <section className=" w-full bg-white dark:bg-[#0A2025] py-9 px-8">
   <div className="mx-auto max-w-[1160px] ">
     <header className="h-12 mb-8 justify-between items-center flex">
@@ -36,6 +39,7 @@ function Card(){
     </main>
   </div>
 </section>
+
 
 
 <div className="-mx-4 flex flex-wrap p-8">
@@ -173,6 +177,7 @@ function Card(){
     </div>
   </div>
 </div>
+</Link>
 
 </>
     )

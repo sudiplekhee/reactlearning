@@ -1,6 +1,13 @@
+import Form from "../components/form"
+import Navbar from "../components/Navbar"
+
 function Editpage(){
     return(
-<h1>This is edit page</h1>
+<>
+<Navbar/>
+<Form text="editpage"/>
+
+</>
     )
 }
 export default Editpage
