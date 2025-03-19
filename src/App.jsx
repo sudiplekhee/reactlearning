@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import Singlepage from './pages/Singlepage'
 import Createpage from './pages/Createpage'
 import Editpage from './pages/Editpage'
+import Signup from './pages/Signup'
+import Signin from './pages/signin'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
     <Route path='/singlepage' element={<Singlepage/>}/>
     <Route path='/createpage' element={<Createpage/>}/>
     <Route path='/editpage' element={<Editpage/>}/>
+    <Route path='/signup' element={<Signup/>}/>
+    <Route path='/signin' element={<Signin/>}/>
    </Routes>
    </BrowserRouter>
 
